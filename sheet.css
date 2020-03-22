@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* INDEX.HTML */
+div.nav_menu{
+	background-color: rgb(47,79,79);
+	padding: 18px;
+}
+
+div.nav_menu a, a:active, a:visited{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	padding: 18px;
+
+}
+
+div.nav_menu a:hover{
+	background: rgb(0, 0, 0);
+}
+
+/*ABOUT.HTML*/
+
+div.branco{
+	background-color: rgb(255, 255, 255);
+	color: rgb(0,0,0);
+	padding: 50px;
+	text-align: left;
+}
+div.branco h1{
+	text-align: center;
+}
+div.branco a{
+	text-decoration: none;
+	color: rgb(0, 150, 255);
+}
+
+div.cinza{
+	background-color: rgb(47,79,79);
+	color: rgb(255, 255, 255);
+	padding: 50px;
+	text-align: center;
+}
+div.cinza a{
+	text-decoration: none;
+	color: rgb(0, 150, 255);
+}
+
+.centered{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
