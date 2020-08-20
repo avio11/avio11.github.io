@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="MNIST_playground.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.5.2/dist/tf.min.js"></script>
+<link href="../../index.css" type="text/css" rel="stylesheet" />
+<title> MNIST playground </title>
+<meta charset = "UTF-8">
+
+<style>
+table{
+  margin: 1em auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+td{
+  color: rgb(255,0,0);
+  background-color: "white";
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+}
+div.mnist{
+  text-align: center;
+  width: 100vw;
+  margin: 15px;
+}
+</style>
+</head>
+
+<body onload="init_page()">
+
+<!-- Top navigation menu -->
+<div class="nav_menu">
+  <a href="../../index.html"> Home </a>
+  <a href="../../about/about.html"> About me </a>
+  <a href="../../research/research.html"> Research </a>
+  <a href="../projects.html"> Projects </a>
+  <a href="../../resources/resources.html"> Resources </a>
+</div>
+
+<div class="mnist">
+<button class="simple_but" onclick="reset_field()">Clear grid</button>
+<button class="simple_but" onclick="classify()">Classify image</button>
+</div>
+
+<table id="field"></table>
+
+<div class="mnist">
+<a id="prediction_text"> Prediction: </a>
+</div>
+
+<div class="mnist">
+<a id="confidence_text"> Confidence: </a>
+</div>
+
+</body>
+
+</html>

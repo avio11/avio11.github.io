@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="graphs.js"></script>
+<link href="../../index.css" type="text/css" rel="stylesheet" />
+<title> Graph traversal visualization </title>
+<meta charset = "UTF-8">
+
+<style>
+table{
+  margin: 1em auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+td{
+  color: rgb(255,0,0);
+  background-color: rgb(150, 200, 200);
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+}
+</style>
+</head>
+
+<body onload="init_field()">
+
+<!-- Top navigation menu -->
+<div class="nav_menu">
+  <a href="../../index.html"> Home </a>
+  <a href="../../about/about.html"> About me </a>
+  <a href="../../research/research.html"> Research </a>
+  <a href="../projects.html"> Projects </a>
+  <a href="../../resources/resources.html"> Resources </a>
+</div>
+
+<button onclick="set_opt(0)">Set initial position</button>
+<button onclick="set_opt(1)">Set final position</button>
+<button onclick="set_opt(2)">Block path</button>
+<button onclick="set_opt(3)">Free path</button>
+<button onclick="reset_field()">Reset grid</button>
+
+<table id="field">
+</table>
+
+</body>
+
+</html>

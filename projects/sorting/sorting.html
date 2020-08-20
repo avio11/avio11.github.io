@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="../../index.css" type="text/css" rel="stylesheet" />
+<link href="sorting.css" type="text/css" rel="stylesheet" />
+<title> Sorting visualization </title>
+<meta charset = "UTF-8">
+</head>
+
+<body>
+
+<!-- Top navigation menu -->
+<div class="nav_menu">
+  <a href="../../index.html"> Home </a>
+  <a href="../../about/about.html"> About me </a>
+  <a href="../../research/research.html"> Research </a>
+  <a href="../projects.html"> Projects </a>
+  <a href="../../resources/resources.html"> Resources </a>
+</div>
+
+
+<canvas id="sort_canvas" width="900" height="400" style="border:3px solid #000000;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+
+
+  <input type="number" id="myNumber" value="100">
+
+  <!-- Button to change array size, change later to slider button? -->
+  <button onclick="set_n()">New array</button>
+
+
+  <!-- BUtton to Initialize sort algorithm -->
+  <button onclick="sort()">Sort array</button>
+  <!-- Step-by-step run of chosen algorithm (NOT IMPLEMENTED YET) -->
+  <!-- <button onclick="bubble()">bubble step-by-step</button> -->
+
+  <!-- Slider button to set FPS rate of sorting algorithm visualization -->
+  <input type="range" min="1" max="400" value="400" class="slider" id="fps_range">
+
+
+
+
+
+
+
+
+
+<script src="sorting.js"></script>
+<!-- <script src="test.js"></script> -->
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+<head>
+<link href="sudoku.css" type="text/css" rel="stylesheet" />
+<script src="sudoku.js"></script>
+<link href="../../index.css" type="text/css" rel="stylesheet" />
+<meta charset = "UTF-8">
+</head>
+
+<body onload="zero_board()">
+
+<!-- Top navigation menu -->
+<div class="nav_menu">
+  <a href="../../index.html"> Home </a>
+  <a href="../../about/about.html"> About me </a>
+  <a href="../../research/research.html"> Research </a>
+  <a href="../projects.html"> Projects </a>
+  <a href="../../resources/resources.html"> Resources </a>
+</div>
+
+
+
+<table id="sudoku_grid">
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+</table>
+
+<br>
+
+<div class="sudoku_menu">
+<button onclick="zero_board()">empty board</button>
+<button onclick="sample_board()">initialize board</button>
+<button onclick="solve_board()">Solve board</button>
+</div>
+
+</body>
+</html>
