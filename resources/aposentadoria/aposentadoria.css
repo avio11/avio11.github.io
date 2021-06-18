@@ -1,0 +1,9 @@
+a.main_theme, a.visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47,79,79);
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    float: none;
+  }

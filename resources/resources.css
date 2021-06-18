@@ -1,0 +1,20 @@
+div.projects_menu{
+    height: 900px;
+    width: 30%;
+    float: left;
+    text-align: center;
+  }
+  
+  div.projects_menu a, a.visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47,79,79);
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    float: none;
+  }
+  
+  div.projects_menu a:hover{
+    background-color: rgb(0,0,0);
+  }
